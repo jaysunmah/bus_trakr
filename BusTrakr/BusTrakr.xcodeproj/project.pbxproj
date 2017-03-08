@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963AC07B1E456CE100192759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AC07A1E456CE100192759 /* AppDelegate.swift */; };
+		963AC07D1E456CE100192759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AC07C1E456CE100192759 /* ViewController.swift */; };
+		963AC0801E456CE100192759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AC07E1E456CE100192759 /* Main.storyboard */; };
+		963AC0821E456CE100192759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963AC0811E456CE100192759 /* Assets.xcassets */; };
+		963AC0851E456CE100192759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AC0831E456CE100192759 /* LaunchScreen.storyboard */; };
+		963AC0901E456CE100192759 /* BusTrakrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AC08F1E456CE100192759 /* BusTrakrTests.swift */; };
+		963AC09B1E456CE100192759 /* BusTrakrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AC09A1E456CE100192759 /* BusTrakrUITests.swift */; };
+		963AC0A91E46E42C00192759 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AC0A81E46E42C00192759 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963AC08C1E456CE100192759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963AC06F1E456CE100192759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963AC0761E456CE100192759;
+			remoteInfo = BusTrakr;
+		};
+		963AC0971E456CE100192759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963AC06F1E456CE100192759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963AC0761E456CE100192759;
+			remoteInfo = BusTrakr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		963AC0771E456CE100192759 /* BusTrakr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTrakr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963AC07A1E456CE100192759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963AC07C1E456CE100192759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963AC07F1E456CE100192759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963AC0811E456CE100192759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963AC0841E456CE100192759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963AC0861E456CE100192759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963AC08B1E456CE100192759 /* BusTrakrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusTrakrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		963AC08F1E456CE100192759 /* BusTrakrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTrakrTests.swift; sourceTree = "<group>"; };
+		963AC0911E456CE100192759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963AC0961E456CE100192759 /* BusTrakrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusTrakrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		963AC09A1E456CE100192759 /* BusTrakrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTrakrUITests.swift; sourceTree = "<group>"; };
+		963AC09C1E456CE100192759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963AC0A81E46E42C00192759 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963AC0741E456CE100192759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AC0881E456CE100192759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AC0931E456CE100192759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963AC06E1E456CE100192759 = {
+			isa = PBXGroup;
+			children = (
+				963AC0791E456CE100192759 /* BusTrakr */,
+				963AC08E1E456CE100192759 /* BusTrakrTests */,
+				963AC0991E456CE100192759 /* BusTrakrUITests */,
+				963AC0781E456CE100192759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963AC0781E456CE100192759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963AC0771E456CE100192759 /* BusTrakr.app */,
+				963AC08B1E456CE100192759 /* BusTrakrTests.xctest */,
+				963AC0961E456CE100192759 /* BusTrakrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963AC0791E456CE100192759 /* BusTrakr */ = {
+			isa = PBXGroup;
+			children = (
+				963AC07A1E456CE100192759 /* AppDelegate.swift */,
+				963AC07C1E456CE100192759 /* ViewController.swift */,
+				963AC07E1E456CE100192759 /* Main.storyboard */,
+				963AC0A81E46E42C00192759 /* TableViewCell.swift */,
+				963AC0811E456CE100192759 /* Assets.xcassets */,
+				963AC0831E456CE100192759 /* LaunchScreen.storyboard */,
+				963AC0861E456CE100192759 /* Info.plist */,
+			);
+			path = BusTrakr;
+			sourceTree = "<group>";
+		};
+		963AC08E1E456CE100192759 /* BusTrakrTests */ = {
+			isa = PBXGroup;
+			children = (
+				963AC08F1E456CE100192759 /* BusTrakrTests.swift */,
+				963AC0911E456CE100192759 /* Info.plist */,
+			);
+			path = BusTrakrTests;
+			sourceTree = "<group>";
+		};
+		963AC0991E456CE100192759 /* BusTrakrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				963AC09A1E456CE100192759 /* BusTrakrUITests.swift */,
+				963AC09C1E456CE100192759 /* Info.plist */,
+			);
+			path = BusTrakrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963AC0761E456CE100192759 /* BusTrakr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963AC09F1E456CE100192759 /* Build configuration list for PBXNativeTarget "BusTrakr" */;
+			buildPhases = (
+				963AC0731E456CE100192759 /* Sources */,
+				963AC0741E456CE100192759 /* Frameworks */,
+				963AC0751E456CE100192759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusTrakr;
+			productName = BusTrakr;
+			productReference = 963AC0771E456CE100192759 /* BusTrakr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963AC08A1E456CE100192759 /* BusTrakrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963AC0A21E456CE100192759 /* Build configuration list for PBXNativeTarget "BusTrakrTests" */;
+			buildPhases = (
+				963AC0871E456CE100192759 /* Sources */,
+				963AC0881E456CE100192759 /* Frameworks */,
+				963AC0891E456CE100192759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963AC08D1E456CE100192759 /* PBXTargetDependency */,
+			);
+			name = BusTrakrTests;
+			productName = BusTrakrTests;
+			productReference = 963AC08B1E456CE100192759 /* BusTrakrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		963AC0951E456CE100192759 /* BusTrakrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963AC0A51E456CE100192759 /* Build configuration list for PBXNativeTarget "BusTrakrUITests" */;
+			buildPhases = (
+				963AC0921E456CE100192759 /* Sources */,
+				963AC0931E456CE100192759 /* Frameworks */,
+				963AC0941E456CE100192759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963AC0981E456CE100192759 /* PBXTargetDependency */,
+			);
+			name = BusTrakrUITests;
+			productName = BusTrakrUITests;
+			productReference = 963AC0961E456CE100192759 /* BusTrakrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963AC06F1E456CE100192759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jason Ma";
+				TargetAttributes = {
+					963AC0761E456CE100192759 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F99ZCNAASZ;
+						ProvisioningStyle = Automatic;
+					};
+					963AC08A1E456CE100192759 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 963AC0761E456CE100192759;
+					};
+					963AC0951E456CE100192759 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 963AC0761E456CE100192759;
+					};
+				};
+			};
+			buildConfigurationList = 963AC0721E456CE100192759 /* Build configuration list for PBXProject "BusTrakr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963AC06E1E456CE100192759;
+			productRefGroup = 963AC0781E456CE100192759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963AC0761E456CE100192759 /* BusTrakr */,
+				963AC08A1E456CE100192759 /* BusTrakrTests */,
+				963AC0951E456CE100192759 /* BusTrakrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963AC0751E456CE100192759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AC0851E456CE100192759 /* LaunchScreen.storyboard in Resources */,
+				963AC0821E456CE100192759 /* Assets.xcassets in Resources */,
+				963AC0801E456CE100192759 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AC0891E456CE100192759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AC0941E456CE100192759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963AC0731E456CE100192759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AC0A91E46E42C00192759 /* TableViewCell.swift in Sources */,
+				963AC07D1E456CE100192759 /* ViewController.swift in Sources */,
+				963AC07B1E456CE100192759 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AC0871E456CE100192759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AC0901E456CE100192759 /* BusTrakrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AC0921E456CE100192759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AC09B1E456CE100192759 /* BusTrakrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963AC08D1E456CE100192759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963AC0761E456CE100192759 /* BusTrakr */;
+			targetProxy = 963AC08C1E456CE100192759 /* PBXContainerItemProxy */;
+		};
+		963AC0981E456CE100192759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963AC0761E456CE100192759 /* BusTrakr */;
+			targetProxy = 963AC0971E456CE100192759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963AC07E1E456CE100192759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AC07F1E456CE100192759 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963AC0831E456CE100192759 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AC0841E456CE100192759 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963AC09D1E456CE100192759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963AC09E1E456CE100192759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963AC0A01E456CE100192759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F99ZCNAASZ;
+				INFOPLIST_FILE = BusTrakr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BusTrakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963AC0A11E456CE100192759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F99ZCNAASZ;
+				INFOPLIST_FILE = BusTrakr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BusTrakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		963AC0A31E456CE100192759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusTrakrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BusTrakrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusTrakr.app/BusTrakr";
+			};
+			name = Debug;
+		};
+		963AC0A41E456CE100192759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusTrakrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BusTrakrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusTrakr.app/BusTrakr";
+			};
+			name = Release;
+		};
+		963AC0A61E456CE100192759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BusTrakrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BusTrakrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BusTrakr;
+			};
+			name = Debug;
+		};
+		963AC0A71E456CE100192759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BusTrakrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BusTrakrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BusTrakr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963AC0721E456CE100192759 /* Build configuration list for PBXProject "BusTrakr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AC09D1E456CE100192759 /* Debug */,
+				963AC09E1E456CE100192759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963AC09F1E456CE100192759 /* Build configuration list for PBXNativeTarget "BusTrakr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AC0A01E456CE100192759 /* Debug */,
+				963AC0A11E456CE100192759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963AC0A21E456CE100192759 /* Build configuration list for PBXNativeTarget "BusTrakrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AC0A31E456CE100192759 /* Debug */,
+				963AC0A41E456CE100192759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963AC0A51E456CE100192759 /* Build configuration list for PBXNativeTarget "BusTrakrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AC0A61E456CE100192759 /* Debug */,
+				963AC0A71E456CE100192759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963AC06F1E456CE100192759 /* Project object */;
+}
